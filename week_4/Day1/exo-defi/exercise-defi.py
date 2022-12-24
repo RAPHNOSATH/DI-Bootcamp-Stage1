@@ -1,5 +1,5 @@
 # exercise 1
-chaine = input("entrer une chaîne de caractère")
+chaine = input("entrer une chaîne de caractère:")
 if len(chaine) < 10:
     print("chaîne pas assez long")
 elif len(chaine) > 10:
@@ -11,5 +11,10 @@ elif len(chaine) == 10:
 print(f" le premier caratère est {chaine[0]}\n, le dernier caractère est {chaine[-1]}\n")
 
 # exercise 3
-chaine1 = input("entrer une chaine de caratère")
+chaine1 = input("entrer une chaine de caratère:")
+nh=""
+for mot in chaine1:
+    nh=nh+mot
+    print(nh)
 
+ #exercise 4
