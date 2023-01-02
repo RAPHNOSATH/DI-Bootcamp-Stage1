@@ -18,3 +18,5 @@ for mot in chaine1:
     print(nh)
 
  #exercise 4
+print(chaine1[-1::-1])
+

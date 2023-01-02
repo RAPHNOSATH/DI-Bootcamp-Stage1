@@ -1,6 +1,6 @@
 # Il est important de faire des commentairesS
 # exercise 1
-print("Hello word\nHello word\nHello word\nHello word")
+print(4*"Hello word\n")
 
 # exercise 2
 a= 99*99*99*8
@@ -46,14 +46,14 @@ elif a%2 != 0:
 
 # exercise 8
 MonNom = "SaWADOGO Thomas"
-TonNom = input("entrer ton nom")
+TonNom = input("entrer ton nom:")
 if TonNom == MonNom:
     print(f"{TonNom};tu seras developper full stack comme moi")
 elif TonNom != MonNom:
     print(f"{TonNom};tu seras vigile")
 
 # exercise 9
-Taille = int(input(" entrer votre taille en pouces"))
+Taille = int(input(" entrer votre taille en pouces:"))
 Taille = Taille* 2.54
 if Taille == 145:
     print(f"Avec ta taille de {Taille} cm, tu es prêt pour rouler")
