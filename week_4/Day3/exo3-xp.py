@@ -1,4 +1,4 @@
-'''# exertcise 1
+# exertcise 1
 def ConvertListe(a):
     iterable = iter(a)
     dct_construit = dict(zip(iterable ,iterable))
@@ -58,7 +58,7 @@ print(f"la longueur du dictionnaire est {len(brand)}")
 print(brand.keys())
 more_on_zara = {"creation_date": 1975, "number_stores": 10000}
 brand.update(more_on_zara)
-print(brand["number_stores"])'''
+print(brand["number_stores"])
 
 # exercise 4
 users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
