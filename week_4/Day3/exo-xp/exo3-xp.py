@@ -1,4 +1,4 @@
-'''# exertcise 1
+# exertcise 1
 def ConvertListe(a):
     iterable = iter(a)
     dct_construit = dict(zip(iterable ,iterable))
@@ -58,20 +58,20 @@ print(f"la longueur du dictionnaire est {len(brand)}")
 print(brand.keys())
 more_on_zara = {"creation_date": 1975, "number_stores": 10000}
 brand.update(more_on_zara)
-print(brand["number_stores"])'''
+print(brand["number_stores"])
 
 # exercise 4
 users = ["Mickey","Minnie","Donald","Ariel","Pluto"]
 '''1 >>> print(disney_users_A)
   {"Mickey": 0, "Minnie": 1, "Donald": 2, "Ariel": 3, "Pluto": 4}
 ce resultat est un dictionnaire dont les keys sont les valeurs de users et dont chaque
-keys a pour valeur son idex dans la liste users
+key a pour valeur son idex indiquant dans la liste users
 2 >>> print(disney_users_B)
 {0: "Mickey",1: "Minnie", 2: "Donald", 3: "Ariel", 4: "Pluto"}
-un dictionnaire dont chaque valeur a pour key l'index qui l'indique dans la liste users
+un dictionnaire dont les valeurs sont les elements de la liste users et chaque valeur a comme key l'index l'indiquant dans la liste users
 3 >>> print(disney_users_C)
 {"Ariel": 0, "Donald": 1, "Mickey": 2, "Minnie": 3, "Pluto": 4}
-un dictionnaire qui a pour keys les valeurs de la liste users dont chaque key contient comme valeur son index l'indiquant dans la liste users ou l'index d'un autre element dans la liste'''
+un dictionnaire  dont les keys sont les elements de la liste users  triés par  ordre aphabetique et chaque key a comme valeur l'index l'indiquant dans la liste'''
 i = 0
 disney_users_A = {}
 disney_users_B = {}
