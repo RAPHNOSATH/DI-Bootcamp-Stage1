@@ -10,5 +10,6 @@ for i in range(len(liste1)):
     if type(liste1[i][2]) == str:
         mot = mot + liste1[i][2]
 new_mot = mot.replace("$#^"," ")
-new_mot = new_mot.replace("%"," ",1)
+new_mot = new_mot.replace("%"," ")
+new_mot = new_mot.replace("# !"," ")
 print(new_mot)
