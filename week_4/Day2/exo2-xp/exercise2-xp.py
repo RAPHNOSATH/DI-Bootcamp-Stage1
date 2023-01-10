@@ -25,8 +25,14 @@ print(fruit)
 la difference: une variable flottant accepte les entiers et qui les affiche sous forme de flottant
 or les variables entiers n'acceptent pas les nombres flottants
 2-oui en convertissant une sequence d'entier en float'''
-liste = [1.5,2,2.5,3,3.5,4,4.5,5]
-
+n = 1.5
+i = 0
+p = []
+while i <8:
+    p.append(n)
+    n = n+0.5
+    i = i +1
+print(p)
 # exercise 5
 for i in range(1,21):
     print(i)
